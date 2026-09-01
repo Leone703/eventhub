@@ -1006,3 +1006,4 @@ Scope: Booking Management (view, create, cancel, clear-all, refund eligibility, 
 **Expected Results**: `ConfirmDialog` shows title "Cancel this booking?" and description "This will cancel the booking and restore the seats to the event. This cannot be undone."; confirming cancels the booking and closes the dialog
 **Business Rule**: `AdminBookingsPage` `ConfirmDialog` wiring
 **Suggested Layer**: E2E / Component
+
