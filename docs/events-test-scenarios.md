@@ -165,7 +165,7 @@ Scope: Event Discovery + Event Detail + Admin Event Management (create, edit, de
 1. Capture event `totalSeats`
 2. Create booking(s) as same user for that event
 3. Fetch event list/detail again
-**Expected Results**: `availableSeats` shown to that user is `stored availableSeats - user's booked quantity`, never below 0
+**Expected Results**: `availableSeats` shown to that user is computed from the event capacity and that user's bookings (`totalSeats - sum of that user's booked quantities`), never below 0
 **Business Rule**: `withPersonalSeats` adjustment for dynamic events
 **Suggested Layer**: API
 
