@@ -391,7 +391,7 @@ Scope: Event Discovery + Event Detail + Admin Event Management (create, edit, de
 
 ## Quick Coverage Summary
 
-- Total scenarios: 28
+- Total scenarios: 29
 - Happy Path: 9
 - Business Rules: 5
 - Security & Access Control: 4
